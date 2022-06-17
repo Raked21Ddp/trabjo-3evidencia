@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fraunces', serif;
+    color: #fff;
+}
+
+html{
+    font-size: 60%;
+    font-family: 'Anton', sans-serif;
+    background-color: #224870;
+}
+
+.contenido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 15px;
+    border: 1px solid darkgray;
+}
+
+.calculadora{
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: 160px repeat(5, 75px);
+    background-color: #00916e;
+    padding: 15px;
+    border-radius: 32px;
+    box-shadow: 15px 10px 0px 5px #00000033;
+    flex-direction: column;
+    width: 500px;
+    font-size: 2rem;
+    border: 1px solid darkgray;
+}
+
+.resultado{
+    padding: 25px 14px;
+    width: 100%;
+    text-align: right;
+    border: 1px solid darkgray;
+    overflow-x: auto;
+}
+
+.keypad{
+    display: flex;
+    width: 100%;
+}
+
+.numeros{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.boton{
+    width: 25%;
+    padding: 15px 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid darkgray;
+}
+
+.boton:hover{
+    filter: brightness(90%);
+
+}
+
+.LARGO{
+    width: 50%;
+
+}
+
+.GRIS{
+    background-color: gainsboro;
+}
+h1{
+    text-align: center;
+    padding: 10px 0;
+    color: greenyellow;
+
+}

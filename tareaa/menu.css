@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+nav {
+    background-color: rgb(10, 63, 65);
+    font-size: 20px;
+}
+
+.menu{
+    text-align: center;
+    margin: 0;
+}
+
+.menu li{
+    display: inline-block;
+    position: relative;
+}
+
+.menu a {
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: darkslategray;
+    
+}
+section{
+    padding: 3vh;
+    
+    float: left;
+    min-height: 500px;
+    width: 75%;
+    background: rgb(233, 241, 117);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+aside{
+    float: left;
+    width: calc(25% - 4px);
+    text-align: center;
+    min-height: 709px;
+    border-left: 4px  rgb(131, 5, 5);
+    background: rgb(233, 241, 117);
+}
+figure{
+    padding: 5px;
+    position: relative;
+}
+figure:hover figcaption{
+    display: block;
+}
+
+figcaption{
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+    color: white;
+}
+
+
+.sol{
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+
+}
+img{
+    width: 100%;
+}
+img:hover{
+    
+    transform: scale(1.15);
+}   
+h1{
+    text-align: center;
+}
+p{
+    
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+footer{
+    
+    width: 100%;
+    height: 200px;
+    background-color: darkslategray ;
+    color: white ;
+    display: inline-block;
+    border-top: 5px  solid black;
+}
+
+footer p{
+    text-align: right;
+    padding:8px;
+}
+.facebook{
+    padding: auto;
+    float: left;
+    
+    
+}
+.instagram{
+    padding: auto;
+    float: left;
+    
+}
+
+.alone{
+    width: 30px;
+    height: auto;
+    position: relative;
+}

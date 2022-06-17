@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+nav{
+    background-size: cover; 
+    justify-content: center;
+    background-color: rgb(60, 60, 223, 0.322);
+}
+
+.menu{
+    text-align: center;
+    margin: 0;
+}
+
+.menu li{
+    display: inline-block;
+    position: relative;
+}
+
+.menu a {
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: rgb(60, 60, 223, 0.322)    ;
+    
+}
+
+
+
+body{
+    font-family: sans-serif;
+    background: rgba(60, 60, 223, 0.322);
+    width: 100%;
+    height: 100vh ;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.oxx{
+    
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    height: 700px;
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+.ree{
+    padding-top: 20px;
+    display: block;
+    margin: 0px auto;
+    width:60%;
+    height:40%;
+    
+}
+
+.GT{
+    
+    max-width: 700px;
+    width: 100%;
+    background-color: rgb(60, 60, 223, 0.322)  ;
+    color: rgb(0, 0, 0) ;  
+    border-top: 4px dashed rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+}
+
+footer p{
+    color: white;
+    text-align: right;
+    padding:8px;
+}
+img:hover{
+    transform: scale(1.07);
+}
+
+.facebook{
+    padding: auto;
+    float: left;
+    
+}
+
+.instagram{
+    padding: auto;
+    
+    float: left;
+}
+
+.alone{
+    width: 40px;
+    height: auto;
+    position: relative;
+    
+}
